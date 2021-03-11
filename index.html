@@ -11,10 +11,11 @@
     <!-- Navigation bar : -->
  <header>
      <img id="logo" src="" alt="logo">
-     <ul id="menu">
-         <li id="panier"><img src="" alt="panier"></li>
-         <li id="anchorDevs"><a href="#devs">Watching Devs</a></li>
-     </ul>
+    <ul id="menu">
+        <li id="panier"><img src="" alt="panier" /></li>
+        <!-- filters => affichage icone dans le menu une fois que la page est en dessous de la partie "filters" -->
+        <li id="navFilters"><img src="" alt="filters" /></li>
+    </ul>
  </header>
     <!-- Body of page : -->
  <main>
@@ -23,6 +24,18 @@
         <h2>...</h2>
         <p>...</p>
         <a id="arrowScroll" href="#devs"><img src="" alt="minimalist down arrow"></a>
+    </div>
+    <div id="filters">
+        <img src="" alt="icon filters">
+        <form id="formFilters">
+            <input type="checkbox" id="box1" name="box1" value="value">
+            <label for="box1"> Html</label><br>
+            <input type="checkbox" id="box2" name="box2" value="value">
+            <label for="box2"> Js</label><br>
+            <input type="checkbox" id="box3" name="box3" value="value">
+            <label for="box3"> Css</label><br><br>
+            <input type="submit" value="Enter">
+          </form>
     </div>
     <div id="devs">
         <article class="devsInfo">
@@ -38,12 +51,12 @@
  </main> 
       <!-- Footer : -->
  <footer>
-     <div id="linksContainer">
-         <h1>Retrouvez nous sur nos réseaux</h1>
-         <a id="footerLinkedin"><img src="" alt="logo Linkedin"></a>
-         <a id="footerFacebook"><img src="" alt="logo Facebook"></a>
-         <a id="footerTwitter"><img src="" alt="logo Twitter"></a>
-     </div>
+    <h1>Retrouvez nous sur nos réseaux</h1>
+    <div id="linksContainer">
+        <a id="footerLinkedin"><img src="" alt="logo Linkedin"></a>
+        <a id="footerFacebook"><img src="" alt="logo Facebook"></a>
+        <a id="footerTwitter"><img src="" alt="logo Twitter"></a>
+    </div>
  </footer>
 </body>
 </html>
