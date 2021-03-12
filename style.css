@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70px;
+    transition: .35s ease-in-out;
+}
+
+.navDisplay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70px;
+    /* transition: .35s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.9); */
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
