@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 form {
     width: auto;
     height: 50px;
@@ -10,3 +11,11 @@ body {
     margin: 5px;
 }
 
+=======
+#linksContainer {
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    background-color: yellowgreen;
+}
+>>>>>>> 23825ebae634d70dd0dc8a17a2be46498f93b816
