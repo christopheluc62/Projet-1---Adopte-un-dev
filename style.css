@@ -1,0 +1,12 @@
+form {
+    width: auto;
+    height: 50px;
+    border: solid black 1px;
+    background-color: rgb(206, 200, 200);
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5px;
+}
+
