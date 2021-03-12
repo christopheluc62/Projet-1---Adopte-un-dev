@@ -1,65 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="profilsDev.css" type="text/css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navigation bar : Kévin -->
- <header>
-     <img id="logo" src="" alt="logo">
-    <ul id="menu">
+    <header>
+      <img id="logo" src="" alt="logo" />
+      <ul id="menu">
         <li id="panier"><img src="" alt="panier" /></li>
         <!-- filters => affichage icone dans le menu une fois que la page est en dessous de la partie "filters" -->
         <li id="navFilters"><img src="" alt="filters" /></li>
-    </ul>
- </header>
+      </ul>
+    </header>
     <!-- Body of page : -->
- <main>
-     <!-- Partie "présentation" : Cristophe -->
-    <div id="presentation">
+    <main>
+      <!-- Partie "présentation" : Cristophe -->
+      <div id="presentation">
         <h1>&lt;Adopte un dev/&gt;</h1>
         <h2>...</h2>
         <p>...</p>
-        <a id="arrowScroll" href="#devs"><img src="" alt="minimalist down arrow"></a>
-    </div>
-    <!-- Partie "filtres" : Antoine -->
-    <div id="filters">
-        <img src="" alt="icon filters">
+        <a id="arrowScroll" href="#devs"
+          ><img src="" alt="minimalist down arrow"
+        /></a>
+      </div>
+      <!-- Partie "filtres" : Antoine -->
+      <div id="filters">
+        <img src="" alt="icon filters" />
         <form id="formFilters">
-            <input type="checkbox" id="box1" name="box1" value="value">
-            <label for="box1"> Html</label><br>
-            <input type="checkbox" id="box2" name="box2" value="value">
-            <label for="box2"> Js</label><br>
-            <input type="checkbox" id="box3" name="box3" value="value">
-            <label for="box3"> Css</label><br><br>
-            <input type="submit" value="Enter">
-          </form>
-    </div>
-    <!-- Partie "affichage des desvs" : Mickael -->
-    <div id="devs">
-        <article class="devsInfo">
-            <img class="profilPicture" src="" alt="Profil picture">
-            <h1 class="devName">Toto</h1>
-            <p class="devText">Hey, je suis toto wallah</p>
-            <ul>
-                <li class="linkedinLink"><a href=""><img src="" alt="logo Linkedin"></a></li>
-                <li class="githubLink"><a href=""><img src="" alt="logo Github"></a></li>
-            </ul>
+          <input type="checkbox" id="box1" name="box1" value="value" />
+          <label for="box1"> Html</label><br />
+          <input type="checkbox" id="box2" name="box2" value="value" />
+          <label for="box2"> Js</label><br />
+          <input type="checkbox" id="box3" name="box3" value="value" />
+          <label for="box3"> Css</label><br /><br />
+          <input type="submit" value="Enter" />
+        </form>
+      </div>
+      <!-- Partie "affichage des desvs" : Mickael -->
+      <div id="devs">
+        <article class="infos">
+          <div class="identityCard">
+            <div class="box1">
+              <img src="pictures/placeholder.png" alt="picture" class="face" />
+              <div class="box2">
+                <p class="firstName">Firstname</p>
+                <p class="lastName">Lastname</p>
+              </div>
+            </div>
+            <p class="techno">Technos Utilisées :</p>
+          <div>
+              <!--ici inseret images techno-->
+          </div>
+          </div>
+          <div class="links">
+            <a href="https://www.figma.com/file/cqEldo0AXItpIZWHVAnCaG/Desktop?node-id=0%3A1">
+              <img
+                src="pictures/768px-LinkedIn_logo_initials.webp"
+                alt="linkedin"
+                class="calibrage"
+            /></a>
+            <img
+              src="pictures/github-154-675675.webp"
+              alt="github"
+              class="calibrage"
+            />
+          </div>
         </article>
-    </div>
- </main> 
-      <!-- Footer : Caroline -->
- <footer>
-    <h1>Retrouvez nous sur nos réseaux</h1>
-    <div id="linksContainer">
-        <a id="footerLinkedin"><img src="" alt="logo Linkedin"></a>
-        <a id="footerFacebook"><img src="" alt="logo Facebook"></a>
-        <a id="footerTwitter"><img src="" alt="logo Twitter"></a>
-    </div>
- </footer>
-</body>
+        <article class="infos">
+          <div class="identityCard">
+            <img src="pictures/placeholder.png" alt="picture" class="face" />
+          </div>
+          <div class="links">
+            <img
+              src="pictures/768px-LinkedIn_logo_initials.webp"
+              alt="linkedin"
+              class="calibrage"
+            />
+            <img
+              src="pictures/github-154-675675.webp"
+              alt="github"
+              class="calibrage"
+            />
+          </div>
+        </article>
+        <article class="infos">
+          <div class="identityCard">
+            <img src="pictures/placeholder.png" alt="picture" class="face" />
+          </div>
+          <div class="links">
+            <img
+              src="pictures/768px-LinkedIn_logo_initials.webp"
+              alt="linkedin"
+              class="calibrage"
+            />
+            <img
+              src="pictures/github-154-675675.webp"
+              alt="github"
+              class="calibrage"
+            />
+          </div>
+        </article>
+        <article class="infos">
+          <div class="identityCard">
+            <img src="pictures/placeholder.png" alt="picture" class="face" />
+          </div>
+          <div class="links">
+            <img
+              src="pictures/768px-LinkedIn_logo_initials.webp"
+              alt="linkedin"
+              class="calibrage"
+            />
+            <img
+              src="pictures/github-154-675675.webp"
+              alt="github"
+              class="calibrage"
+            />
+          </div>
+        </article>
+        <article class="infos">
+          <div class="identityCard">
+            <img src="pictures/placeholder.png" alt="picture" class="face" />
+          </div>
+          <div class="links">
+            <img
+              src="pictures/768px-LinkedIn_logo_initials.webp"
+              alt="linkedin"
+              class="calibrage"
+            />
+            <img
+              src="pictures/github-154-675675.webp"
+              alt="github"
+              class="calibrage"
+            />
+          </div>
+        </article>
+        <article class="infos">
+          <div class="identityCard">
+            <img src="pictures/placeholder.png" alt="picture" class="face" />
+          </div>
+          <div class="links">
+            <img
+              src="pictures/768px-LinkedIn_logo_initials.webp"
+              alt="linkedin"
+              class="calibrage"
+            />
+            <img
+              src="pictures/github-154-675675.webp"
+              alt="github"
+              class="calibrage"
+            />
+          </div>
+        </article>
+        <article class="infos">
+          <div class="identityCard">
+            <img src="pictures/placeholder.png" alt="picture" class="face" />
+          </div>
+          <div class="links">
+            <img
+              src="pictures/768px-LinkedIn_logo_initials.webp"
+              alt="linkedin"
+              class="calibrage"
+            />
+            <img
+              src="pictures/github-154-675675.webp"
+              alt="github"
+              class="calibrage"
+            />
+          </div>
+        </article>
+        <article class="infos">
+          <div class="identityCard">
+            <img src="pictures/placeholder.png" alt="picture" class="face" />
+          </div>
+          <div class="links">
+            <img
+              src="pictures/768px-LinkedIn_logo_initials.webp"
+              alt="linkedin"
+              class="calibrage"
+            />
+            <img
+              src="pictures/github-154-675675.webp"
+              alt="github"
+              class="calibrage"
+            />
+          </div>
+        </article>
+        <article class="infos">
+          <div class="identityCard">
+            <img src="pictures/placeholder.png" alt="picture" class="face" />
+          </div>
+          <div class="links">
+            <img
+              src="pictures/768px-LinkedIn_logo_initials.webp"
+              alt="linkedin"
+              class="calibrage"
+            />
+            <img
+              src="pictures/github-154-675675.webp"
+              alt="github"
+              class="calibrage"
+            />
+          </div>
+        </article>
+      </div>
+    </main>
+    <!-- Footer : Caroline -->
+    <footer>
+      <h1>Retrouvez nous sur nos réseaux</h1>
+      <div id="linksContainer">
+        <a id="footerLinkedin"><img src="" alt="logo Linkedin" /></a>
+        <a id="footerFacebook"><img src="" alt="logo Facebook" /></a>
+        <a id="footerTwitter"><img src="" alt="logo Twitter" /></a>
+      </div>
+    </footer>
+  </body>
 </html>
