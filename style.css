@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 form {
     width: auto;
     height: 50px;
@@ -6,12 +10,8 @@ form {
     box-sizing: border-box;
 }
 
-body {
-    margin: 5px;
-}
-
 #linksContainer {
-    width: 100%;
+    width: 100vw;
     height: 170px;
     text-align: center;
     background-color: yellowgreen;

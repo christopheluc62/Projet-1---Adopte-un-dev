@@ -1,68 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <!-- Navigation bar : Kévin -->
- <header>
-     <img id="logo" src="" alt="logo">
-    <ul id="menu">
-        <li id="panier"><img src="" alt="panier" /></li>
-        <!-- filters => affichage icone dans le menu une fois que la page est en dessous de la partie "filters" -->
-        <li id="navFilters"><img src="" alt="filters" /></li>
-    </ul>
- </header>
-    <!-- Body of page : -->
-<main>
-     <!-- Partie "présentation" : Cristophe -->
-    <div id="presentation">
-        <h1>&lt;Adopte un dev/&gt;</h1>
-        <h2>...</h2>
-        <p>...</p>
-        <a id="arrowScroll" href="#devs"><img src="" alt="minimalist down arrow"></a>
+    <div class="navDisplay">
+        <!-- <a class="linkLogo" href="#presentation"><img class="navLogo" src="" alt="Adopte un dev logo" /></a> -->
+        <p class="waitingLogo">Adopte un dev</p>
+        <div class="navMenu">
+            <label for="checkBurger" class="hamburger">
+                <input type="checkbox" id="checkBurger" />
+                <span class="spanA"></span>
+                <span class="spanB"></span>
+                <span class="spanC"></span>
+            </label>
+        </div>
     </div>
-    <!-- Partie "filtres" : Antoine -->
-    <div id="filters">
-        <img src="" alt="Filtres">
-        <form id="formFilters">
-            <input type="checkbox" id="box1" name="box1" value="value">
-            <label for="box1"> Html</label>
-            <input type="checkbox" id="box2" name="box2" value="value">
-            <label for="box2"> Js</label>
-            <input type="checkbox" id="box3" name="box3" value="value">
-            <label for="box3"> Css</label>
-            <br><input type="submit" value="Valider"></form></br>
-          </form>
-    </div>
-    <!-- Partie "affichage des desvs" : Mickael -->
-    <div id="devs">
-        <article class="devsInfo">
-            <img class="profilPicture" src="" alt="Profil picture">
-            <h1 class="devName">Toto</h1>
-            <p class="devText">Hey, je suis toto wallah</p>
-            <ul>
-                <li class="linkedinLink"><a href=""><img src="" alt="logo Linkedin"></a></li>
-                <li class="githubLink"><a href=""><img src="" alt="logo Github"></a></li>
-            </ul>
-        </article>
-    </div>
- </main>
-      <!-- Footer : Caroline -->
- <footer>
-    <div id="linksContainer">
-        <h1>Retrouvez nous sur nos réseaux</h1>
-        <a id="footerLinkedin"><img src="C:\Users\dorch\Desktop\PROJETS\WCS\AdopteUnDev\adopte-un-dev\LogoPictures\logo-linkedinn.png" alt="logo Linkedin"></a>
-        <a id="footerFacebook"><img src="C:\Users\dorch\Desktop\PROJETS\WCS\AdopteUnDev\adopte-un-dev\LogoPictures\logo-fb.png" alt="logo Facebook"></a>
-        <a id="footerTwitter"><img src="C:\Users\dorch\Desktop\PROJETS\WCS\AdopteUnDev\adopte-un-dev\LogoPictures\logo-twitter.png" alt="logo Twitter"></a>
-        <a id="footerInstagram"><img src="C:\Users\dorch\Desktop\PROJETS\WCS\AdopteUnDev\adopte-un-dev\LogoPictures\logo-ig.png" alt="logo Instagram"></a>
-        <a id="footerYoutube"><img src="C:\Users\dorch\Desktop\PROJETS\WCS\AdopteUnDev\adopte-un-dev\LogoPictures\logo-youtube.png" alt="logo Youtube"></a>
-        <p>© Copyright Adopte un dev' Wild Code School Project</p>
-    </div>
- </footer>
+    <div class="options"></div>
+
+    <header></header>
+    <main>
+        <!-- Partie "présentation" : Cristophe -->
+        <div id="presentation">
+            <h1>&lt;Adopte un dev/&gt;</h1>
+            <h2>...</h2>
+            <p>...</p>
+            <a id="arrowScroll" href="#devs"><img src="" alt="minimalist down arrow"></a>
+        </div>
+        <!-- Partie "filtres" : Antoine -->
+        <div id="filters">
+            <img src="" alt="Filtres">
+            <form id="formFilters">
+                <input type="checkbox" id="box1" name="box1" value="value">
+                <label for="box1"> Html</label>
+                <input type="checkbox" id="box2" name="box2" value="value">
+                <label for="box2"> Js</label>
+                <input type="checkbox" id="box3" name="box3" value="value">
+                <label for="box3"> Css</label>
+                <br><input type="submit" value="Valider">
+            </form></br>
+            </form>
+        </div>
+        <!-- Partie "affichage des devs" : Mickael  -->
+        <div id="devs">
+            <article class="devsInfo">
+                <img class="profilPicture" src="" alt="Profil picture">
+                <h1 class="devName">Toto</h1>
+                <p class="devText">Hey, je suis toto wallah</p>
+                <ul>
+                    <li class="linkedinLink"><a href=""><img src="" alt="logo Linkedin"></a></li>
+                    <li class="githubLink"><a href=""><img src="" alt="logo Github"></a></li>
+                </ul>
+            </article>
+        </div>
+    </main>
+    <!-- Footer : Caroline -->
+    <footer>
+        <div id="linksContainer">
+            <h1>Retrouvez nous sur nos réseaux</h1>
+            <a id="footerLinkedin"><img
+                    src="C:\Users\dorch\Desktop\PROJETS\WCS\AdopteUnDev\adopte-un-dev\LogoPictures\logo-linkedinn.png"
+                    alt="logo Linkedin"></a>
+            <a id="footerFacebook"><img
+                    src="C:\Users\dorch\Desktop\PROJETS\WCS\AdopteUnDev\adopte-un-dev\LogoPictures\logo-fb.png"
+                    alt="logo Facebook"></a>
+            <a id="footerTwitter"><img
+                    src="C:\Users\dorch\Desktop\PROJETS\WCS\AdopteUnDev\adopte-un-dev\LogoPictures\logo-twitter.png"
+                    alt="logo Twitter"></a>
+            <a id="footerInstagram"><img
+                    src="C:\Users\dorch\Desktop\PROJETS\WCS\AdopteUnDev\adopte-un-dev\LogoPictures\logo-ig.png"
+                    alt="logo Instagram"></a>
+            <a id="footerYoutube"><img
+                    src="C:\Users\dorch\Desktop\PROJETS\WCS\AdopteUnDev\adopte-un-dev\LogoPictures\logo-youtube.png"
+                    alt="logo Youtube"></a>
+            <p>© Copyright Adopte un dev' Wild Code School Project</p>
+        </div>
+    </footer>
 </body>
+
 </html>
