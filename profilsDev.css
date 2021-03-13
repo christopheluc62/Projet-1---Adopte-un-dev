@@ -1,0 +1,59 @@
+#devs {
+  background-color: burlywood;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.infos {
+  border-style: solid;
+  border-color: green;
+  height: 40vh;
+  width: 20vw;
+  margin: 10px 50px 0 50px;
+}
+
+.identityCard {
+  background-color: yellow;
+  border-style: solid;
+  border-color: yellow;
+  height: 30vh;
+}
+
+.links {
+  background-color: aqua;
+  border-style: solid;
+  border-color: aqua;
+  height: 8.3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.face {
+  height: 16vh;
+  width: 8vw;
+}
+
+.calibrage {
+  height: 6vh;
+  width: 3vw;
+}
+
+.box1 {
+  display: flex;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
