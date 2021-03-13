@@ -66,3 +66,27 @@
 #checkBurger:checked~span:nth-of-type(3) {
     transform: translateY(-6px) rotate(-45deg);
 }
+
+#options {
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    width: 50vw;
+    top: 70px;
+    right: 0;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+    background-color: white;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.optHide {
+    height: 0;
+    /* background-color: orange; */
+}
+
+.optDisplay {
+    height: 50vh;
+    /* background-color: orange; */
+}
