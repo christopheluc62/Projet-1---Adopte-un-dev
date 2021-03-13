@@ -71,22 +71,20 @@
     position: fixed;
     justify-content: center;
     display: flex;
-    width: 50vw;
-    top: 70px;
-    right: 0;
+    width: 100vw;
+    top: 71px;
+    left: 0;
     overflow: hidden;
-    transition: 0.2s ease-in-out;
+    transition: height .3s ease-in-out;
     background-color: white;
-    border-left: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; */
 }
 
 .optHide {
     height: 0;
-    /* background-color: orange; */
 }
 
 .optDisplay {
     height: 50vh;
-    /* background-color: orange; */
+    border-bottom: 1px solid #ccc;
 }
