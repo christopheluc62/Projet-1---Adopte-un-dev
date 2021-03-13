@@ -1,5 +1,4 @@
 #devs {
-  background-color: burlywood;
   border-style: solid;
   border-color: black;
   display: flex;
@@ -11,24 +10,33 @@
 }
 
 .infos {
+  border-radius: 3px;
   border-style: solid;
-  border-color: green;
+  border-color: black;
   height: 40vh;
   width: 20vw;
   margin: 10px 50px 0 50px;
 }
 
 .identityCard {
-  background-color: yellow;
-  border-style: solid;
-  border-color: yellow;
+  background-color: #fdb6ee;
+  height: 30vh;
+}
+.identityCard2 {
+  background-color: #83fdff;
   height: 30vh;
 }
 .links {
-  background-color: aqua;
-  border-style: solid;
-  border-color: aqua;
-  height: 8.3vh;
+  background-color: #83fdff;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.links2 {
+  background-color: #fdb6ee;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,6 +47,10 @@
   width: 8vw;
 }
 .calibrage {
+  height: 8vh;
+  width: 4vw;
+}
+.calibrage2 {
   height: 6vh;
   width: 3vw;
 }
@@ -51,4 +63,14 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  height: 16vh;
+}
+.techno {
+  font-family: "Dancing Script", cursive;
+  font-size: 15px;
+}
+.techno2 {
+  height: 50px;
 }
