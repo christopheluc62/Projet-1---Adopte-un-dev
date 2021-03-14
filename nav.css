@@ -1,13 +1,4 @@
-/* .nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 70px;
-    transition: .35s ease-in-out;
-} */
-
-.navDisplay {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,45 +13,50 @@
     border-bottom: 1px solid #ccc;
 }
 
-.waitingLogo {
-    padding: 0 20px;
-}
-
-.containerIcons {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.caddy {
-    display: flex;
-    width: 25px;
-    height: 25px;
-    padding: 21.5px;
-    margin-bottom: 3px;
-    cursor: pointer;
+/* Logo ---------------------------------------------------- */
+.logoContainer {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 200px;
+    height: 30px;
 }
 
 svg {
-    fill: rgb(78, 78, 78);
+    transition: .3s;
 }
 
-.caddy:hover svg {
-    fill: black;
+.logoFill {
+    fill:transparent;
+    transition: .5s;
 }
 
-.fillCaddy {
-    fill: none;
+#logoFirst {
+    fill:inherit;
 }
 
-#checkCaddy {
-    display: none;
+#logoSlash {
+    fill: inherit;
+    transform: translateX(-120px);
 }
 
-#checkCaddy:checked~svg .fillCaddy {
-    fill: black;
+#logoLast {
+    fill: inherit;
+    transform: translateX(-118px);
 }
 
+.logoLink:hover .logoFill {
+    fill: inherit;
+}
+
+.logoLink:hover #logoSlash {
+    transform: translateX(0);
+}
+
+.logoLink:hover #logoLast {
+    transform: translateX(0);
+}
+
+/* Hamburger ---------------------------------------------------- */
 .hamburger {
     display: flex;
     flex-direction: column;
@@ -103,46 +99,27 @@ svg {
     transform: translateY(-6px) rotate(-45deg);
 }
 
-#options {
+#menu {
     position: fixed;
     justify-content: center;
     display: flex;
     width: 100vw;
+    height: 0;
     top: 71px;
     left: 0;
     overflow: hidden;
     transition: height .3s;
-    background-color: white;
+    /* background-color: white; */
+    background-color: lightcoral;
     /* border-bottom: 1px solid #ccc; */
 }
 
-.optHide {
-    height: 0;
+.settings {
+    width: 50%;
+    background-color: lightblue;
 }
 
-.optDisplay {
-    height: 50vh;
-    border-bottom: 1px solid #ccc;
-}
-
-#added {
-    position: fixed;
-    justify-content: center;
-    display: flex;
-    width: 100vw;
-    top: 71px;
-    left: 0;
-    overflow: hidden;
-    transition: height .3s;
-    background-color: white;
-    /* border-bottom: 1px solid #ccc; */
-}
-
-.addHide {
-    height: 0;
-}
-
-.addDisplay {
-    height: 50vh;
-    border-bottom: 1px solid #ccc;
+.yourDevs {
+    width: 50%;
+    background-color: lightgreen;
 }
