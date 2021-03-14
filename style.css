@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 form {
     width: auto;
     height: 50px;
@@ -7,15 +6,27 @@ form {
     box-sizing: border-box;
 }
 
+input {
+    color: brown;
+}
+
+label {
+    border: solid rgb(21, 216, 200) 1px;
+    padding: 5px;
+}
+
+#submit {
+    margin: 5px;
+    box-sizing: border-box;
+}
+
 body {
     margin: 5px;
 }
 
-=======
 #linksContainer {
     width: 100%;
     height: 170px;
     text-align: center;
     background-color: yellowgreen;
 }
->>>>>>> 23825ebae634d70dd0dc8a17a2be46498f93b816
