@@ -26,6 +26,7 @@
   background-color: #83fdff;
   height: 30vh;
 }
+
 .links {
   background-color: #83fdff;
   height: 10vh;
@@ -42,6 +43,7 @@
   align-items: center;
   justify-content: space-around;
 }
+
 .face {
   height: 16vh;
   width: 8vw;
@@ -55,9 +57,11 @@
   height: 6vh;
   width: 3vw;
 }
+
 .box1 {
   display: flex;
 }
+
 .box2 {
   display: flex;
   justify-content: center;
@@ -65,13 +69,15 @@
   flex-direction: column;
   width: 100%;
   font-family: "Dancing Script", cursive;
-  font-size: 20px;
+  font-size: 40px;
   height: 16vh;
 }
 .techno {
   font-family: "Dancing Script", cursive;
-  font-size: 15px;
+  font-size: 20px;
+  margin-top: 10px;
 }
 .techno2 {
   height: 50px;
+  margin-top: 20px;
 }

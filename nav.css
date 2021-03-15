@@ -1,0 +1,125 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70px;
+    /* transition: .35s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.9); */
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Logo ---------------------------------------------------- */
+.logoContainer {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+svg {
+    transition: .3s;
+}
+
+.logoFill {
+    fill:transparent;
+    transition: .5s;
+}
+
+#logoFirst {
+    fill:inherit;
+}
+
+#logoSlash {
+    fill: inherit;
+    transform: translateX(-120px);
+}
+
+#logoLast {
+    fill: inherit;
+    transform: translateX(-118px);
+}
+
+.logoLink:hover .logoFill {
+    fill: inherit;
+}
+
+.logoLink:hover #logoSlash {
+    transform: translateX(0);
+}
+
+.logoLink:hover #logoLast {
+    transform: translateX(0);
+}
+
+/* Hamburger ---------------------------------------------------- */
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    padding: 21.5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    margin: 2px 0;
+    border-radius: 3px;
+    transition: .2s ease-in-out;
+}
+
+.hamburger>span:nth-of-type(2) {
+    align-self: center;
+}
+
+.hamburger:hover>span:nth-of-type(2) {
+    width: 50%;
+}
+
+#checkBurger {
+    display: none;
+}
+
+#checkBurger:checked~span:nth-of-type(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+#checkBurger:checked~span:nth-of-type(2) {
+    transform: scale(0);
+}
+
+#checkBurger:checked~span:nth-of-type(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+
+#menu {
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 0;
+    top: 71px;
+    left: 0;
+    overflow: hidden;
+    transition: height .3s;
+    /* background-color: white; */
+    background-color: lightcoral;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.settings {
+    width: 50%;
+    background-color: lightblue;
+}
+
+.yourDevs {
+    width: 50%;
+    background-color: lightgreen;
+}
