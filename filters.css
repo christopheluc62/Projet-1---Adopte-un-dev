@@ -1,9 +1,25 @@
 form {
     width: auto;
-    height: 50px;
-    border: solid black 1px;
-    background-color: rgb(206, 200, 200);
+    height: 50px; 
     box-sizing: border-box;
+}
+
+#formFilters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#filters {
+    border: solid grey 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.filter_block {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    padding: 5px;
 }
 
 input {
@@ -11,11 +27,32 @@ input {
 }
 
 label {
+<<<<<<< HEAD
     border: solid rgb(0, 12, 11) 1px;
+=======
+>>>>>>> 1238a03034f692ba8d90607c960c2ee5114b715c
     padding: 5px;
 }
 
 #submit {
     margin: 5px;
     box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+}
+
+.logo_filter {
+    width: 13px;
+    height: 13px;
+    align-items: center;
+
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.filter_search {
+    font-family: "Dancing Script", cursive; 
 }
