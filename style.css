@@ -2,28 +2,6 @@
     margin: 0;
 }
 
-form {
-    width: auto;
-    height: 50px;
-    border: solid black 1px;
-    background-color: rgb(206, 200, 200);
-    box-sizing: border-box;
-}
-
-input {
-    color: brown;
-}
-
-label {
-    border: solid rgb(21, 216, 200) 1px;
-    padding: 5px;
-}
-
-#submit {
-    margin: 5px;
-    box-sizing: border-box;
-}
-
 body {
     margin: 5px;
 }
