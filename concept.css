@@ -12,6 +12,8 @@ h1 {
     height: 360px;
     display: flex;
     flex-direction: column;
+    margin-top: 71px;
+    padding-top: 50px;
   }
 
 .arrow {
@@ -34,7 +36,7 @@ h1 {
     }
     100% {
       position: relative;
-      top: 0px;
+      top: 0px;</br>
       opacity: 0;
     }
   }
