@@ -1,0 +1,40 @@
+h1 {
+    font-size: 30px;
+  }
+  
+#presentation1 {
+    border: 5px ridge #09c;
+    text-align: center;
+    background-color: rgb(65, 204, 169);
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(18, 87, 216);
+    font-size: 18px;
+    height: 200px;
+    display: flex;
+  }
+
+.arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: down 1s infinite linear alternate;
+  }
+  
+@keyframes down {
+    0% {
+      position: relative;
+      top: 40px;
+      opacity: 1;
+    }
+    50% {
+      position: relative;
+      top: 20px;
+      opacity: 0.5;
+    }
+    100% {
+      position: relative;
+      top: 0px;
+      opacity: 0;
+    }
+  }
+  
