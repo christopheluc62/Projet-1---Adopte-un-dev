@@ -2,15 +2,16 @@ h1 {
     font-size: 30px;
   }
   
-#presentation1 {
+#presentation {
     border: 5px ridge #09c;
     text-align: center;
     background-color: rgb(65, 204, 169);
     font-family: "Gill Sans", sans-serif;
     color: rgb(18, 87, 216);
     font-size: 18px;
-    height: 200px;
+    height: 360px;
     display: flex;
+    flex-direction: column;
   }
 
 .arrow {
