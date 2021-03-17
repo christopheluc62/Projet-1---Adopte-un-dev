@@ -6,7 +6,6 @@
   flex-wrap: wrap;
   justify-content: space-around;
   height: 60vh;
-  overflow-y: scroll;
 }
 
 .infos {
