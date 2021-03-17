@@ -1,0 +1,92 @@
+.cardsGrid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, 280px);
+  padding: 4rem;
+  justify-content: center;
+  width: 100vw;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  box-shadow: 0px 1px #faf0f3;
+  border: 1px solid #faf0f3;
+  border-radius: 9px;
+  cursor: pointer;
+  width: 100%;
+  height: 390px;
+  transition: .1s linear;
+}
+
+.card:hover {
+  border: 1px solid #7d98e3;
+  box-shadow: 0px 0px 0px 1px #7d98e3;
+  transform: scale(1.04);
+}
+
+.cardImg {
+  border-radius: 9px 9px 0 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./pictures/kevin.jpg");
+  width: 100%;
+  height: 40%;
+}
+
+.card:hover .cardImg {
+  filter: grayscale(100%);
+}
+
+.cardName {
+  padding: 16px 16px 4px 16px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  transition: .1s;
+}
+
+.card:hover .cardName {
+  color: #1e7bd3;
+}
+
+.cardTechs {
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(70, 70, 70);
+  text-align: center;
+}
+
+.sendMsg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.sendMsg svg path {
+  fill: #3f3f3f;
+}
+
+.sendMsg #iconGithub {
+  width: 30px;
+}
+
+.sendMsg #iconLinkedin {
+  width: 25px;
+}
+
+.sendMsg #iconMail {
+  width: 30px;
+}
+
+.sendMsg svg:hover path {
+  fill: #0f5596;
+}
