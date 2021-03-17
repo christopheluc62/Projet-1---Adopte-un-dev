@@ -12,12 +12,9 @@
 }
 
 #searchBar {
-    padding-left: 28px;
+    padding-left: 20px;
     width: 100%;
     height: 30px;
-    border: 1px solid #333;
-    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
-    outline: none;
 }
 
 #searchBar::-ms-clear {
