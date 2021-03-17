@@ -87,3 +87,9 @@
 .sendMsg img:hover {
   transform: scale(1.2);
 }
+
+.infoCard {
+  position: absolute;
+  background-color: pink;
+  z-index: 9999;
+}
