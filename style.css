@@ -33,7 +33,7 @@ body {
     width: 30vw;
     height: 170px;
     background-color: black;
-    padding-left: 69px;
+    padding-left: 55px;
   }
   
   .bloc4 {
@@ -52,16 +52,12 @@ body {
     width: 30vw;
     height: 170px;
     background-color: black;
-    padding-left: 69px;
+    padding-left: 55px;
   }
   
   .copyright {
     margin-top: 10%;
     color: black;
-  }
-  
-  h1 {
-    text-align: center;
   }
 
   .ahover {
@@ -74,18 +70,24 @@ body {
     border-radius: 2px;
     background: radial-gradient(grey, black);
     }
+
+  .titlesfooter {
+    text-align: center;
+    color: white;
+  }
   
-  p, li, h1 {
+  .colorlist {
+    color: white;
+    list-style-type: none;
+    padding-left: 100px;
+  }
+
+  .colorparagraph {
     color: white;
   }
 
-  ul {
+  .listfooter {
     padding-top: 30px;
-  }
-  
-  li {
-    list-style-type: none;
-    padding-left: 100px;
   }
   
   .imglogosfb {
@@ -154,6 +156,7 @@ body {
 
   .E-mail {
     text-align: center;
+    color: white;
   }
   
   .enterEmail {
