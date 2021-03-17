@@ -1,6 +1,12 @@
-let checkBurger = document.querySelector("#checkBurger");
-checkBurger.addEventListener("change", function() {
-    let menu = document.getElementById("menu");
-    // this.checked ? menu.className = "menuDisplay" : menu.className = "menuHide";
-    this.checked ? menu.style.height = "50vh" : menu.style.height = "0";
+const modal = document.querySelector(".modal");
+const sendMail = document.querySelector(".iconSendMail");
+
+// close modal if click ext
+modal.addEventListener("click", () => {
+    modal.style.display = "none";
+});
+
+// open modal when click send mail icon
+sendMail.addEventListener("click", () => {
+    modal.style.display = "flex";
 });

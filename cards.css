@@ -72,22 +72,18 @@
   margin-bottom: 20px;
 }
 
-.sendMsg svg path {
-  fill: #3f3f3f;
-}
-
-.sendMsg #iconGithub {
+.iconGithub {
   width: 30px;
 }
 
-.sendMsg #iconLinkedin {
+.iconLinkedin {
   width: 25px;
 }
 
-.sendMsg #iconMail {
+.iconSendMail {
   width: 30px;
 }
 
-.sendMsg svg:hover path {
-  fill: #0f5596;
+.sendMsg img:hover {
+  transform: scale(1.2);
 }
