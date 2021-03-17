@@ -9,131 +9,44 @@
 
 /* PARTIE CAROLINE CSS */
 
-#linksContainer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    height: 200px;
-    width: 100%;
-  }
-  
-  .bloc1 {
-    width: 35vw;
-    height: 170px;
-    background-color: black;
-  }
-  
-  .bloc2 {
-    width: 30vw;
-    height: 170px;
-    background-color: black;
-  }
-  
-  .bloc3 {
-    width: 30vw;
-    height: 170px;
-    background-color: black;
-    padding-left: 55px;
-  }
-  
-  .bloc4 {
-    width: 35vw;
-    height: 170px;
-    background-color: black;
-  }
-  
-  .bloc5 {
-    width: 30vw;
-    height: 170px;
-    background-color: black;
-  }
-  
-  .bloc6 {
-    width: 30vw;
-    height: 170px;
-    background-color: black;
-    padding-left: 55px;
-  }
-  
-  .copyright {
-    margin-top: 10%;
-    color: black;
-  }
+footer {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(70, 70, 70);
+}
 
-  .ahover {
-    text-decoration: none;
-    color: white;
-    }
+.bigContainer {
+width: 100%;
+}
 
-  .ahover:hover {
-    background-color: grey;
-    border-radius: 2px;
-    background: radial-gradient(grey, black);
-    }
+.newsletter {
+width: 50%;
+height: auto;
+}
 
-  .titlesfooter {
-    text-align: center;
-    color: white;
-  }
-  
-  .colorlist {
-    color: white;
-    list-style-type: none;
-    padding-left: 100px;
-  }
+.followUs {
+  width: 50%;
+  height: auto;
+}
 
-  .colorparagraph {
-    color: white;
-  }
+.copyright {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 100px;
+}
 
-  .listfooter {
-    padding-top: 30px;
-  }
-  
-  .imglogosfb {
-    padding-left: 250px;
-    padding-top: 30px;
-    height: 60px;
-    width: 150px;
-  }
-
-  .imgWCS {
-    padding-left: 220px;
-    padding-top: 30px;
-    height: 50px;
-    width: 150px;
-  }
-
-  .imgWCS:hover {
-      opacity: 1;
-      -webkit-animation: flash 1.5s;
-      animation: flash 1.5s;
-    }
-    @-webkit-keyframes flash {
-      0% {
-        opacity: .4;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-    @keyframes flash {
-      0% {
-        opacity: .4;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-
-  .imgadopte {
-    padding-left: 220px;
-    height: 130px;
-    width: 130px;
-  }
-
-  .imgadopte:hover {
+.imglogos {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+  .imglogos:hover {
     opacity: 1;
     -webkit-animation: flash 1.5s;
     animation: flash 1.5s;
@@ -155,15 +68,55 @@
     }
   }
 
-  .E-mail {
-    text-align: center;
-    color: white;
+  .titleNewsletter {
+      font-size: 30px;
   }
+
+  .titleFollowUs {
+    font-size: 30px;
+  }
+
+.E-mail {
+  margin-top: 10px;
+}
+
+
+.logoWCS {
+  height: 50px;
+  width: 150px;
+  margin-bottom: 50px;
+}
+
+.logoWCS:hover {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* NEWSLETTER */
+
   
   .enterEmail {
     display: block;
   }
-  
+
   .inputEmail {
     margin: .4rem 0;
   }
