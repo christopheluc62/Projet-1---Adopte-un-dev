@@ -1,28 +1,7 @@
-/* h1 {
-  font-size: 30px;
-}
-
-#presentation {
-  border: 5px solid #f9f9f9;
-  text-align: center;
-  background-size: 100% 430px;
-  font-family: "Gill Sans", sans-serif;
-  color: rgb(29, 6, 114);
-  font-size: 18px;
-  height: 300px;
-  margin-top: 76px;
-  padding-top: 50px;
-}
-
-p {
-  color: rgb(29, 6, 114);
-} */
-
 header {
   display: flex;
   width: 100vw;
-  height: 50vh;
-  /* background-color: lightblue; */
+  height: auto;
   margin-top: 70px;
 }
 
@@ -31,28 +10,29 @@ header {
   flex-direction: column;
   width: 50%;
   height: 100%;
-  /* background-color: lightgrey; */
   align-items: center;
   justify-content: center;
 }
 
 .headerConcept h1{
+  width: 100%;
   font-weight: 400;
+  padding: 3rem 0 1rem 3rem;
+  text-align: left;
 }
 
 .headerConcept p{
+  width: 100%;
   font-weight: 300;
   font-size: 1.2rem;
-  text-align: justify;
-  padding: 3rem;
+  text-align: left;
+  padding: 5px 3rem;
 }
 
 .headerImage{
   width: 50%;
-  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("./pictures/conceptimage.png");
-  filter: sepia(0.3);
+  background-position: top left;
+  background-image: url("./pictures/test.png");
 }
