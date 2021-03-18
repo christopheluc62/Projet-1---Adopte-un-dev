@@ -18,16 +18,15 @@
   }
   .headerText {
     width: 960px;
-    padding: 4rem 0 0 10rem;
+    padding: 4rem 0 0 12rem;
   }
   .headerText h1 {
     font-size: 45px;
     font-family: 'Crete Round', serif;
-    text-align: center;
+    text-align: left;
     padding-bottom: 2rem;
   }
   .headerText p {
-    padding-left: 4rem;
     padding-bottom: 1rem;
     font-weight: 100;
     font-size: 22px;
@@ -54,6 +53,33 @@
     text-align: justify;
     font-weight: 100;
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    width: 100vw;
+    margin-top: 80px;
+  }
+  .headerText {
+    width: 100%;
+    padding: 2rem 2rem
+  }
+  .headerText h1 {
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 1rem;
+  }
+  .headerText p {
+    font-weight: 100;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .paragraph1 {
+    display: none;
+  }
+  .paragraph3 {
+    display: none;
   }
 }
 

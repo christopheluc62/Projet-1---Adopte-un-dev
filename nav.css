@@ -12,52 +12,8 @@
     text-align: left;
 }
 
-
 .nav img {
     width: 250px;
     position: relative;
     top: -3px;
 }
-
-/* Logo ---------------------------------------------------- */
-/* .logoContainer {
-    margin-left: 20px;
-    margin-top: 5px;
-    width: 200px;
-    height: 30px;
-}
-
-svg {
-    transition: .3s;
-}
-
-.logoFill {
-    fill:transparent;
-    transition: .5s;
-}
-
-#logoFirst {
-    fill:inherit;
-}
-
-#logoSlash {
-    fill: inherit;
-    transform: translateX(-120px);
-}
-
-#logoLast {
-    fill: inherit;
-    transform: translateX(-118px);
-}
-
-.logoLink:hover .logoFill {
-    fill: inherit;
-}
-
-.logoLink:hover #logoSlash {
-    transform: translateX(0);
-}
-
-.logoLink:hover #logoLast {
-    transform: translateX(0);
-} */
