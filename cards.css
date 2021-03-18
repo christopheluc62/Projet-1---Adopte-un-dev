@@ -51,6 +51,7 @@
   filter: sepia(0.3);
 }
 
+
 .card:hover .cardImg {
   filter: sepia(0);
 }

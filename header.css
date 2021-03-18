@@ -20,7 +20,8 @@
 header {
   background-color: lightblue;
   width: 100vw;
-  height: 40vh;
+  height: calc(50vh + 70px);
+  margin-top: 70px;
 }
 
 .headerConcept {
