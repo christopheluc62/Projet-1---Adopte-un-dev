@@ -34,32 +34,21 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("./pictures/kevin.jpg");
   width: 100%;
   height: 40%;
   filter: sepia(0.3);
+}
+
+.imgKevin {
+  background-image: url("./pictures/kevin.jpg");
 }
 
 .imgCaroline {
-  border-radius: 9px 9px 0 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   background-image: url("./pictures/caro.jpg");
-  width: 100%;
-  height: 40%;
-  filter: sepia(0.3);
 }
 
-.imgLoïc {
-  border-radius: 9px 9px 0 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("./pictures/loic.jpg");
-  width: 100%;
-  height: 40%;
-  filter: sepia(0.3);
+.imgLoic {
+  background-image: url("./pictures/loic.JPG");
 }
 
 .card:hover .cardImg {
