@@ -2,11 +2,11 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: calc((50vh / 2) * 3);
-  height: 50vh;
+  width: 845px;
+  height: 480px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("./pictures/test.png");
+  background-image: url("./pictures/headerImg.svg");
   z-index: -1;
 }
 
