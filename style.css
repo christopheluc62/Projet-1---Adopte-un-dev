@@ -30,16 +30,11 @@
 }
 
 .logoPrincipal {
-  height: 10vh;
-  width: 15vw;
-}
-
-.textSlogan {
-position: relative;
-top: 10px;
-left: 450px;
-font-weight: 400;
-font-size: 30px;
+  height: 8vh;
+  width: 13vw;
+  position: relative;
+  left: 800px;
+  bottom: 5%;
 }
 
 /* PARTIE CAROLINE CSS */
