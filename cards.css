@@ -51,6 +51,10 @@
   background-image: url("./pictures/loic.JPG");
 }
 
+.imgAntoine {
+  background-image: url("./pictures/antoine.jpg");
+}
+
 .card:hover .cardImg {
   filter: sepia(0);
 }
