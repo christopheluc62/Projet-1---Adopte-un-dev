@@ -31,7 +31,7 @@
 
 .logoPrincipal {
   height: 8vh;
-  width: 13vw;
+  width: 14vw;
   position: relative;
   left: 800px;
   bottom: 5%;
@@ -176,6 +176,27 @@ footer {
   display: block;
 }
 
-.inputEmail {
+.inputEmail1 {
   margin: .4rem 0;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 0.3em 0.3em 0.3em 0.3em;
+}
+
+.inputEmail2 {
+  margin: .4rem 0;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 0.3em 0.3em 0.3em 0.3em;
+  cursor: pointer;
+}
+
+.inputEmail2:hover {
+  background-color: #ced1ce;
+}
+
+.inputEmail2:active {
+  background-color: ##ced1ce;
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
 }
