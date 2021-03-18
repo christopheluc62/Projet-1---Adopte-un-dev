@@ -6,6 +6,7 @@
     width: 100vw;
     height: 80px;
     padding: 10px 40px;
+    border-bottom: #e8e8e8;
     box-shadow: 0px 10px 14px -1px rgb(0 0 0 / 10%);
     z-index: 1;
     text-align: center;
