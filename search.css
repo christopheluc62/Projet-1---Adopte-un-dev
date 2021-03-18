@@ -9,6 +9,8 @@
 
 .formSearch {
     width: 50%;
+    margin: 5px;
+    box-shadow: 0px 0px 5px #aaa;
 }
 
 #searchBar {
