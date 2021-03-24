@@ -1,13 +1,19 @@
-.backgroundImg {
+/* .backgroundImg {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 845px;
+  left: 0;
+  width: 100vw;
   height: 480px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("./pictures/headerImg.svg");
+  background-image: url("./pictures/headerImg.png");
   z-index: -1;
+} */
+
+header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./pictures/headerImg.png);
 }
 
 @media screen and (min-width: 1441px) {
