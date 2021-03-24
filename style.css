@@ -199,14 +199,3 @@ footer {
   box-shadow: 0 1px #666;
   transform: translateY(2px);
 }
-
-/* PARTIE DARKMODE */
-
-.dark-mode2 {
-  background-color: black;
-  color: white;
-}
-
-.buttonDarkMode {
-  cursor: pointer;
-}
