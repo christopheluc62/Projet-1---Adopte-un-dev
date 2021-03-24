@@ -20,8 +20,18 @@
   <!-- Navigation bar  -->
   <div class="nav">
     <a href="#scrollTop">
-      <img src="pictures/logoAdopteUnDev.png" /></a>
-    <button id="theme_toggler">DARK / LIGHT</button>
+      <!-- <img src="pictures/logoAdopteUnDev.png" /></a>
+    <button id="theme_toggler">DARK / LIGHT</button> -->
+      <img id="logoAdopt" src="pictures/logoAdopteUnDev.png" /></a>
+ <!-- <button id="theme_toggler">DARK / LIGHT</button> -->
+ <div class ="buttonDarkMode" id= "theme_toggler">
+	<input type="checkbox" class="checkbox" id="chk" />
+	<label class="theme_toggler" for="chk">
+    <div class="sun">☀️</div>
+		<div class="moon">🌙</div>
+		<div class="ball"></div>
+	</label>
+</div>
   </div>
 
   <!-- Modal envoie mail -->
@@ -57,8 +67,8 @@
         <p class="titleNewsletter">Newsletter</p>
         <p class="E-mail">Recevez en avant première les dernières nouveautés & exclusivités
           <label for="email" class="enterEmail">Entrez votre adresse e-mail :</label>
-          <input type="email" id="email" class="inputEmail1" pattern=".+@globex.com" size="30" required><input
-            type="submit" class="inputEmail2" value="Valider">
+          <input type="email" id="email" class="inputEmail1" pattern=".+@globex.com" size="30" required>
+          <form id="contactForm"><input type="submit" class="inputEmail2" value="Valider"></form>
         </p>
       </div>
 
@@ -88,6 +98,7 @@
   </footer>
   <script type="text/javascript" src="index.js"></script>
   <script type="text/javascript" src="darkmode.js"></script>
+  <script type="text/javascript" src="contact.js"></script>
 </body>
 
 </html>

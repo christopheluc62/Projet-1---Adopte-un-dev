@@ -1,42 +1,50 @@
+:root {
+  --nav-2: 5px solid red;
+  --nav-1: 1px solid rgb(70, 70, 70);
+}
+.dark_mode {
+  --nav-1: 5px solid rgb(70, 70, 70);
+  --nav-2: 1px solid red;
+}
 .searchContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    padding-top: 19rem;
-    padding-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding-top: 19rem;
+  padding-bottom: 4rem;
 }
 
 input {
-    border: 1px solid lightgray;
-    border-radius: 2px;
+  border: var(--nav-2);
+  border-radius: 2px;
 }
 
 .formSearch {
-    margin: 5px;
+  margin: 5px;
 }
 
 #searchBar {
-    border-radius: 4px;
-    box-shadow: 0 2px 20px 0 rgb(0 0 0 / 9%);
-    font-weight: 100;
-    font-size: 20px;
-    border: 1px solid #e6e6e6;
-    padding-left: 4rem;
-    width: 100%;
-    height: 45px;
+  border-radius: 4px;
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 9%);
+  font-weight: 100;
+  font-size: 20px;
+  border: var(--grey);
+  padding-left: 4rem;
+  width: 100%;
+  height: 45px;
 }
 
 @media screen and (min-width: 1440px) {
-    .formSearch {
-        width: 50%;
-    }
+  .formSearch {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1440px) {
-    .formSearch {
-        width: 75%;
-    }
+  .formSearch {
+    width: 75%;
+  }
 }
 
 /* @media screen and (max-width: 800px){
@@ -52,50 +60,51 @@ input {
         box-shadow: none;
         padding-left: 1rem;
         width: 100%;
-        /* margin-left: 20px; *//*
+        /* margin-left: 20px; */ /*
     }
 } */
 
 @media screen and (max-width: 800px) {
-    .searchContainer {
-        padding-top: 1rem;
-        padding-bottom: 2rem;
-    }
-    .formSearch {
-        width: 85%;
-    }
-    #searchBar {
-        padding-left: 1rem;
-        border-radius: 5px;
-        border: 2px solid #d2d2d2;
-    }
+  .searchContainer {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .formSearch {
+    width: 85%;
+  }
+  #searchBar {
+    padding-left: 1rem;
+    border-radius: 5px;
+    border: 2px solid #d2d2d2;
+  }
 }
 
-
-
 #searchBar::-ms-clear {
-    display: none;
-    width: 0;
-    height: 0;
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 #searchBar::-ms-reveal {
-    display: none;
-    width: 0;
-    height: 0;
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 /* clears the ‘X’ from Chrome */
 
-#searchBar::-webkit-search-decoration, #searchBar::-webkit-search-cancel-button, #searchBar::-webkit-search-results-button, #searchBar::-webkit-search-results-decoration {
-    display: none;
+#searchBar::-webkit-search-decoration,
+#searchBar::-webkit-search-cancel-button,
+#searchBar::-webkit-search-results-button,
+#searchBar::-webkit-search-results-decoration {
+  display: none;
 }
 
 .searchIcon {
-    position: relative;
-    right: 50px;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url("./pictures/searchIcon.svg");
+  position: relative;
+  right: 50px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("./pictures/searchIcon.svg");
 }

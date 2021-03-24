@@ -1,18 +1,18 @@
-:root{
+:root {
   --car-bg: #ecebeb;
   --card-nameHover: #1e7bd3;
   --card-border: 1px solid #7d98e3;
   --card-bshadow: 0px 0px 0px 1px #7d98e3;
-  --cardTechs:rgb(70, 70, 70);
+  --cardTechs: rgb(70, 70, 70);
   --cardName: black;
 }
 
-.dark_mode{
+.dark_mode {
   --car-bg: #413e3e;
   --card-nameHover: #a3a8ad;
   --card-border: 1px solid #c2c4ca;
   --card-bshadow: 0px 0px 0px 1px #c2c4ca;
-  --cardTechs:rgb(189, 184, 184);
+  --cardTechs: rgb(189, 184, 184);
   --cardName: white;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .card:hover .cardName {
-  color: var(--card-nameHover)
+  color: var(--card-nameHover);
 }
 
 .cardTechs {
