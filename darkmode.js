@@ -1,6 +1,5 @@
-function myFunction() {
-   const body = document.body;
-   body.classList.toggle("dark-mode2");
-   const footer = document.footer;
-   footer.classList.toggle("dark-mode2");
-}
+let theme_toggler = document.querySelector('#theme_toggler');
+
+theme_toggler.addEventListener('click', function(){ 
+    document.body.classList.toggle('dark_mode');
+});

@@ -236,3 +236,71 @@ for (let iconMail of iconsMail) {
         modal.style.display = "flex";
     });
 };
+
+function addCard(profil){
+
+const newCard = document.createElement("article");
+newCard.classList.add ("card");
+
+const newCardImg = document.createElement("div");
+newCardImg.classList.add ("cardImg");
+newCardImg.style.backgroundImage = `url(${profil.img})`;
+newCard.appendChild(newCardImg);
+
+const newCardName = document.createElement("p");
+newCardName.classList.add ("cardName");
+newCardName.innerHTML = `${profil.firstName} ${profil.lastName}`;
+newCard.appendChild(newCardName);
+
+const newCardTechs = document.createElement("p");
+newCardTechs.classList.add ("cardTechs");
+newCardTechs.innerHTML = profil.techs.join(", ");
+newCard.appendChild(newCardTechs);
+
+const newCardDescr = document.createElement("p");
+newCardDescr.classList.add ("cardDescr");
+newCardDescr.innerHTML = profil.descr;
+newCard.appendChild(newCardDescr);
+
+const newSendMessage = document.createElement("div");
+newSendMessage.classList.add ("sendMsg");
+newCard.appendChild(newSendMessage);
+
+const newGithubLink = document.createElement("a");
+newGithubLink.href = profil.gitHub;
+newGithubLink.target = "_blank";
+newSendMessage.appendChild(newGithubLink);
+
+const newGithubImg = document.createElement("img");
+newGithubImg.classList.add ("iconGithub");
+newGithubImg.src = "./pictures/github.svg";
+newGithubImg.alt = "Github logo";
+newGithubLink.appendChild(newGithubImg);
+
+const newLinkedInLink = document.createElement("a");
+newLinkedInLink.href = profil.linkedin;
+newLinkedInLink.target = "_blank";
+newSendMessage.appendChild(newLinkedInLink);
+
+const newLinkedInImg = document.createElement("img");
+newLinkedInImg.classList.add ("iconLinkedin");
+newLinkedInImg.src = "./pictures/linkedin.svg";
+newLinkedInImg.alt = "Linkedin logo";
+newLinkedInLink.appendChild(newLinkedInImg);
+
+const newIconSendMail = document.createElement("img");
+newIconSendMail.classList.add ("iconSendMail");
+newIconSendMail.src = "./pictures/sendMail.svg";
+newIconSendMail.alt = "Send a mail icon";
+newSendMessage.appendChild(newIconSendMail);
+
+const cardsGrid = document.querySelector(".cardsGrid");
+cardsGrid.appendChild(newCard);
+}
+
+for(let i = 0 ; i < profilsList.length ; i++){
+    addCard(profilsList[i]);
+}
+
+
+

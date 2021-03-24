@@ -1,19 +1,18 @@
 .nav {
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 80px;
-    padding: 10px 40px;
-    border-bottom: #e8e8e8;
-    box-shadow: 0px 10px 14px -1px rgb(0 0 0 / 10%);
-    z-index: 1;
-    text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 80px;
+  padding: 10px 40px;
+  border-bottom: #e8e8e8;
+  box-shadow: 0px 10px 14px -1px rgb(0 0 0 / 10%);
+  z-index: 1;
+  text-align: left;
 }
 
 .nav img {
-    width: 250px;
-    position: relative;
-    top: -3px;
+  width: 250px;
+  position: relative;
+  top: -3px;
 }
