@@ -226,8 +226,7 @@ const profilsList = [
 ];
 
 
-function addCard(profil){
-
+function addCard(profil) {
 const newCard = document.createElement("article");
 newCard.classList.add ("card");
 
@@ -312,5 +311,3 @@ for (let iconMail of iconsMail) {
         modal.style.display = "flex";
     });
 };
-
-
