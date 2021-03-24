@@ -4,4 +4,3 @@ function myFunction() {
    const footer = document.footer;
    footer.classList.toggle("dark-mode2");
 }
-
