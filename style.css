@@ -45,7 +45,7 @@ footer {
   align-items: center;
   width: 100vw;
   color: rgb(70, 70, 70);
-  background-color: #ecebeb;
+  /* background-color: #ecebeb; */
   border-top: 1px solid #eaeaea;
   box-shadow: 0px -1px 4px -1px rgb(207 207 207);
   margin-top: 20px;
@@ -198,4 +198,11 @@ footer {
   background-color: #ced1ce;
   box-shadow: 0 1px #666;
   transform: translateY(2px);
+}
+
+/* PARTIE DARKMODE */
+
+.dark-mode2 {
+  background-color: black;
+  color: white;
 }
