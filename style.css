@@ -1,10 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+
+:root {
+  --white: 1px white;
+  --grey: 5px grey;
+}
+.dark_mode {
+  --grey: 1px solid grey;
+  --white: 5px solid white;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .modal {
@@ -24,9 +33,10 @@
 .modalContent {
   width: 50%;
   height: 40vw;
-  background-color: #fff;
+  background-color: var(--grey);
   border-radius: 8px;
-  box-shadow: 0px 5px 26px 0px rgb(0 0 0 / 22%), 0px 20px 28px 0px rgb(0 0 0 / 30%);
+  box-shadow: 0px 5px 26px 0px rgb(0 0 0 / 22%),
+    0px 20px 28px 0px rgb(0 0 0 / 30%);
 }
 
 .logoPrincipal {
@@ -112,7 +122,7 @@ footer {
 
 @-webkit-keyframes flash {
   0% {
-    opacity: .4;
+    opacity: 0.4;
   }
   100% {
     opacity: 1;
@@ -121,7 +131,7 @@ footer {
 
 @keyframes flash {
   0% {
-    opacity: .4;
+    opacity: 0.4;
   }
   100% {
     opacity: 1;
@@ -153,7 +163,7 @@ footer {
 
 @-webkit-keyframes flash {
   0% {
-    opacity: .4;
+    opacity: 0.4;
   }
   100% {
     opacity: 1;
@@ -162,7 +172,7 @@ footer {
 
 @keyframes flash {
   0% {
-    opacity: .4;
+    opacity: 0.4;
   }
   100% {
     opacity: 1;
@@ -176,14 +186,14 @@ footer {
 }
 
 .inputEmail1 {
-  margin: .4rem 0;
+  margin: 0.4rem 0;
   border: 1px solid lightgray;
   border-radius: 2px;
   padding: 0.3em 0.3em 0.3em 0.3em;
 }
 
 .inputEmail2 {
-  margin: .4rem 0;
+  margin: 0.4rem 0;
   border: 1px solid lightgray;
   border-radius: 2px;
   padding: 0.3em 0.3em 0.3em 0.3em;
@@ -199,3 +209,14 @@ footer {
   box-shadow: 0 1px #666;
   transform: translateY(2px);
 }
+
+/* PARTIE DARKMODE */
+/* 
+.dark-mode2 {
+  background-color: black;
+  color: white;
+}
+
+.buttonDarkMode {
+  cursor: pointer;
+} */
