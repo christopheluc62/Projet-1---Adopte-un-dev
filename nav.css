@@ -1,13 +1,12 @@
-:root{
-    --color-nav: white;
-    --color-nav-border: #e8e8e8;
-  }
+:root {
+  --color-nav: white;
+  --color-nav-border: #e8e8e8;
+}
 
-.dark_mode{
-    --color-nav: black;
-    --color-nav-border: #2e2d2d;
-  }
-
+.dark_mode {
+  --color-nav: black;
+  --color-nav-border: #2e2d2d;
+}
 .nav {
   position: fixed;
   top: 0;
@@ -20,7 +19,6 @@
   box-shadow: 0px 10px 14px -1px rgb(0 0 0 / 10%);
   z-index: 1;
   text-align: left;
-  background-color: var(--nav-bg);
 }
 
 .nav img {

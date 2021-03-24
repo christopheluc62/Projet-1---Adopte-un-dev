@@ -2,16 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 
 :root {
-  --body-bg: #f5f5f5;
-  --nav-bg: red;
-  --nav-bd-col: #bdbdbd;
-  --text-color: #252525;
+  --white: 1px white;
+  --grey: 5px grey;
 }
 .dark_mode {
-  --body-bg: #252525;
-  --nav-bg: #555;
-  --nav-bd-col: #212121;
-  --text-color: #f5f5f5;
+  --grey: 1px solid grey;
+  --white: 5px solid white;
 }
 * {
   margin: 0;
@@ -37,7 +33,7 @@
 .modalContent {
   width: 50%;
   height: 40vw;
-  background-color: var(--nav-bg);
+  background-color: var(--grey);
   border-radius: 8px;
   box-shadow: 0px 5px 26px 0px rgb(0 0 0 / 22%),
     0px 20px 28px 0px rgb(0 0 0 / 30%);

@@ -1,18 +1,18 @@
-:root{
+:root {
   --car-bg: #ecebeb;
   --card-nameHover: #1e7bd3;
   --card-border: 1px solid #7d98e3;
   --card-bshadow: 0px 0px 0px 1px #7d98e3;
-  --cardTechs:rgb(70, 70, 70);
+  --cardTechs: rgb(70, 70, 70);
   --cardName: black;
 }
 
-.dark_mode{
+.dark_mode {
   --car-bg: #413e3e;
   --card-nameHover: #a3a8ad;
   --card-border: 1px solid #c2c4ca;
   --card-bshadow: 0px 0px 0px 1px #c2c4ca;
-  --cardTechs:rgb(189, 184, 184);
+  --cardTechs: rgb(189, 184, 184);
   --cardName: white;
 }
 
@@ -45,16 +45,6 @@
 
 .cardImg {
   transition: 0.5s;
-<<<<<<< HEAD
-=======
-=======
-.card:hover .cardTechs {
-  display: none;
-}
-.card:hover .cardDescr {
-  display: block;
->>>>>>> 6f1f78c59d7585efd8766d0d5949a5afd8c89d32
->>>>>>> a478af641df19e34deb29ec373b06d4e4b244d82
 }
 
 .card:hover .cardImg {
@@ -101,7 +91,7 @@
 }
 
 .card:hover .cardName {
-  color: var(--card-nameHover)
+  color: var(--card-nameHover);
 }
 
 .cardTechs {
@@ -145,15 +135,3 @@
 .sendMsg img:hover {
   transform: scale(1.2);
 }
-<<<<<<< HEAD
-
-/* .infoCard {
-  position: absolute;
-  background-color: pink;
-  z-index: 9999;
-}
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6f1f78c59d7585efd8766d0d5949a5afd8c89d32
->>>>>>> a478af641df19e34deb29ec373b06d4e4b244d82
