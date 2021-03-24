@@ -1,3 +1,21 @@
+:root{
+  --car-bg: #ecebeb;
+  --card-nameHover: #1e7bd3;
+  --card-border: 1px solid #7d98e3;
+  --card-bshadow: 0px 0px 0px 1px #7d98e3;
+  --cardTechs:rgb(70, 70, 70);
+  --cardName: black;
+}
+
+.dark_mode{
+  --car-bg: #413e3e;
+  --card-nameHover: #a3a8ad;
+  --card-border: 1px solid #c2c4ca;
+  --card-bshadow: 0px 0px 0px 1px #c2c4ca;
+  --cardTechs:rgb(189, 184, 184);
+  --cardName: white;
+}
+
 .cardsGrid {
   display: grid;
   gap: 2rem;
@@ -12,7 +30,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #ecebeb;
+  background-color: var(--car-bg);
   border-radius: 4px;
   cursor: pointer;
   width: 100%;
@@ -21,15 +39,20 @@
 }
 
 .card:hover {
-  border: 1px solid #7d98e3;
-  box-shadow: 0px 0px 0px 1px #7d98e3;
+  border: var(--card-border);
+  box-shadow: var(--card-bshadow);
 }
 
+<<<<<<< HEAD
+.cardImg {
+  transition: 0.5s;
+=======
 .card:hover .cardTechs {
   display: none;
 }
 .card:hover .cardDescr {
   display: block;
+>>>>>>> 6f1f78c59d7585efd8766d0d5949a5afd8c89d32
 }
 
 .card:hover .cardImg {
@@ -70,19 +93,20 @@
   padding: 16px 16px 4px 16px;
   font-size: 1.2rem;
   font-weight: 500;
+  color: var(--cardName);
   text-align: center;
   transition: 0.1s;
 }
 
 .card:hover .cardName {
-  color: #1e7bd3;
+  color: var(--card-nameHover)
 }
 
 .cardTechs {
   padding: 8px 16px;
   font-size: 1rem;
   font-weight: 300;
-  color: rgb(70, 70, 70);
+  color: var(--cardTechs);
   text-align: center;
 }
 
@@ -90,7 +114,7 @@
   padding: 8px 16px;
   font-size: 1rem;
   font-weight: 300;
-  color: rgb(70, 70, 70);
+  color: var(--cardTechs);
   text-align: center;
   display: none;
 }
@@ -119,3 +143,12 @@
 .sendMsg img:hover {
   transform: scale(1.2);
 }
+<<<<<<< HEAD
+
+/* .infoCard {
+  position: absolute;
+  background-color: pink;
+  z-index: 9999;
+}
+=======
+>>>>>>> 6f1f78c59d7585efd8766d0d5949a5afd8c89d32
