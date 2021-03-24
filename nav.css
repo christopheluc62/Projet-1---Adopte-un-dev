@@ -9,6 +9,7 @@
   box-shadow: 0px 10px 14px -1px rgb(0 0 0 / 10%);
   z-index: 1;
   text-align: left;
+  background-color: var(--nav-bg);
 }
 
 .nav img {
