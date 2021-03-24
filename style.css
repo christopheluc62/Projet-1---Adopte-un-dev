@@ -206,3 +206,7 @@ footer {
   background-color: black;
   color: white;
 }
+
+.buttonDarkMode {
+  cursor: pointer;
+}
