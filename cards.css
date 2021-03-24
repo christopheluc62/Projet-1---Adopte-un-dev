@@ -39,8 +39,6 @@
   padding-top: 4px;
 }
 
-
-
 .cardImg {
   border-radius: 4px 4px 0 0;
   background-size: cover;
@@ -84,6 +82,15 @@
   font-weight: 300;
   color: rgb(70, 70, 70);
   text-align: center;
+}
+
+.cardDescr {
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(70, 70, 70);
+  text-align: center;
+  display: none;
 }
 
 .sendMsg {

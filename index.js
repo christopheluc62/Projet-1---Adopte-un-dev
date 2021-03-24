@@ -235,3 +235,18 @@ for (let iconMail of iconsMail) {
         modal.style.display = "flex";
     });
 };
+
+// change text card hover
+const card = document.querySelector('.card');
+const cardTechs = document.querySelector('.cardTechs');
+const cardDescr = document.querySelector('.cardDescr');
+
+card.addEventListener('mouseenter', () => {
+    cardTechs.style.display = 'none';
+    cardDescr.style.display = 'block';
+});
+
+card.addEventListener('mouseleave', () => {
+    cardTechs.style.display = 'block';
+    cardDescr.style.display = 'none';
+});
