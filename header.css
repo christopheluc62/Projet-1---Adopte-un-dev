@@ -23,13 +23,13 @@ header {
     margin-top: 80px;
   }
   .headerText {
-    width: 960px;
-    padding: 4rem 0 0 12rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 17vh;
   }
   .headerText h1 {
     font-size: 45px;
     font-family: 'Crete Round', serif;
-    text-align: left;
     padding-bottom: 2rem;
   }
   .headerText p {
