@@ -1,6 +1,7 @@
 const modal = document.querySelector(".modal");
 const iconsMail = document.getElementsByClassName("iconSendMail");
 
+
 const profilsList = [
     {
         firstName: "Loïc",
