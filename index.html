@@ -20,8 +20,18 @@
   <!-- Navigation bar  -->
   <div class="nav">
     <a href="#scrollTop">
-      <img src="pictures/logoAdopteUnDev.png" /></a>
- <button id="theme_toggler">DARK / LIGHT</button>
+      <!-- <img src="pictures/logoAdopteUnDev.png" /></a>
+    <button id="theme_toggler">DARK / LIGHT</button> -->
+      <img id="logoAdopt" src="pictures/logoAdopteUnDev.png" /></a>
+ <!-- <button id="theme_toggler">DARK / LIGHT</button> -->
+ <div class ="buttonDarkMode" id= "theme_toggler">
+	<input type="checkbox" class="checkbox" id="chk" />
+	<label class="theme_toggler" for="chk">
+    <div class="sun">☀️</div>
+		<div class="moon">🌙</div>
+		<div class="ball"></div>
+	</label>
+</div>
   </div>
 
   <!-- Modal envoie mail -->
@@ -34,101 +44,17 @@
     <div class="headerText">
       <h1>Adoptez le développeur de vos rêves !</h1>
     </div>
-        <!-- Partie "searchBar" -->
-        <div class="searchContainer">
-          <form class="formSearch" method="get">
-            <input type="search" name="siteSearch" id="searchBar" placeholder="HTML, CSS, PHP..." />
-          </form>
-          <i class="searchIcon"></i>
-        </div>
+    <!-- Partie "searchBar" -->
+    <div class="searchContainer">
+      <form class="formSearch" method="get">
+        <input type="search" name="siteSearch" id="searchBar" placeholder="HTML, CSS, PHP..." />
+      </form>
+      <i class="searchIcon"></i>
+    </div>
   </header>
   <main>
-
-    <!-- Partie Cards -->
-
-
     <section class="cardsGrid">
-      <!-- <article class="card">
-        <div class="cardImg"></div>
-        <p class="cardName">Loïc Brassart</p>
-        <p class="cardTechs">HTML, CSS, JS, Node, React, PHP, Python, Pepsi</p>
-        <p class="cardDescr">Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.</p>
-        <div class="iconContainer"></div>
-        <div class="sendMsg">
-          <a href="https://github.com/CaroD59" target="_blank"><img class="iconGithub" src="./pictures/github.svg"
-              alt="Github logo"></a>
-          <a href="https://www.linkedin.com/in/dorchies-c/" target="_blank"><img class="iconLinkedin"
-              src="./pictures/linkedin.svg" alt="Linkedin logo"></a>
-          <img class="iconSendMail" src="./pictures/sendMail.svg" alt="Send a mail icon">
-        </div>
-      </article> -->
-
-
-
-
-
-
-
-      <!-- <article class="card">
-        <div class="cardImg imgCaroline"></div>
-        <p class="cardName">Caroline Dorchies</p>
-        <p class="cardTechs">HTML, CSS, JS, Node, React, PHP, Python, ...</p>
-        <div class="iconContainer"></div>
-        <div class="sendMsg">
-          <a href="https://github.com/CaroD59" target="_blank"><img class="iconGithub" src="./pictures/github.svg"
-              alt="Github logo"></a>
-          <a href="https://www.linkedin.com/in/dorchies-c/" target="_blank"><img class="iconLinkedin"
-              src="./pictures/linkedin.svg" alt="Linkedin logo"></a>
-          <img class="iconSendMail" src="./pictures/sendMail.svg" alt="Send a mail icon">
-        </div>
-      </article>
-      <article class="card">
-        <div class="cardImg imgAntoine"></div>
-        <p class="cardName">Antoine Cau</p>
-        <p class="cardTechs">HTML, CSS, JS, Node, React, PHP, Python, ...</p>
-        <div class="iconContainer"></div>
-        <div class="sendMsg">
-          <a href="https://github.com/CaroD59" target="_blank"><img class="iconGithub" src="./pictures/github.svg"
-              alt="Github logo"></a>
-          <a href="https://www.linkedin.com/in/dorchies-c/" target="_blank"><img class="iconLinkedin"
-              src="./pictures/linkedin.svg" alt="Linkedin logo"></a>
-          <img class="iconSendMail" src="./pictures/sendMail.svg" alt="Send a mail icon">
-        </div>
-      </article>
-      <article class="card">
-        <div class="cardImg imgKevin"></div>
-        <p class="cardName">Kévin Bodart</p>
-        <p class="cardTechs">HTML, CSS, JS, Node, React, PHP, Python, ...</p>
-        <div class="iconContainer"></div>
-        <div class="sendMsg">
-          <a href="https://github.com/bdtkevin" target="_blank"><img class="iconGithub" src="./pictures/github.svg"
-              alt="Github logo"></a>
-          <a href="https://www.linkedin.com/in/kevin-bodart/" target="_blank"><img class="iconLinkedin"
-              src="./pictures/linkedin.svg" alt="Linkedin logo"></a>
-          <img class="iconSendMail" src="./pictures/sendMail.svg" alt="Send a mail icon">
-        </div>
-      </article>
-      <article class="card">
-        <div class="cardImg"></div>
-        <p class="cardName">New Dev</p>
-        <p class="cardTechs">HTML, CSS, JS, Node, React, PHP, Python, ...</p>
-        <div class="iconContainer"></div>
-        <div class="sendMsg">
-          <a href="https://github.com/CaroD59" target="_blank"><img class="iconGithub" src="./pictures/github.svg"
-              alt="Github logo"></a>
-          <a href="https://www.linkedin.com/in/dorchies-c/" target="_blank"><img class="iconLinkedin"
-              src="./pictures/linkedin.svg" alt="Linkedin logo"></a>
-          <img class="iconSendMail" src="./pictures/sendMail.svg" alt="Send a mail icon">
-        </div>
-      </article>
-      <article class="card"></article>
-      <article class="card"></article>
-      <article class="card"></article>
-      <article class="card"></article>
-      <article class="card"></article>
-      <article class="card"></article>
-      <article class="card"></article>
-      <article class="card"></article> -->
+    </section>
   </main>
   <!-- Footer : Caroline -->
   <footer>
@@ -141,8 +67,8 @@
         <p class="titleNewsletter">Newsletter</p>
         <p class="E-mail">Recevez en avant première les dernières nouveautés & exclusivités
           <label for="email" class="enterEmail">Entrez votre adresse e-mail :</label>
-          <input type="email" id="email" class="inputEmail1" pattern=".+@globex.com" size="30" required><input
-            type="submit" class="inputEmail2" value="Valider">
+          <input type="email" id="email" class="inputEmail1" pattern=".+@globex.com" size="30" required>
+          <form id="contactForm"><input type="submit" class="inputEmail2" value="Valider"></form>
         </p>
       </div>
 
@@ -172,6 +98,7 @@
   </footer>
   <script type="text/javascript" src="index.js"></script>
   <script type="text/javascript" src="darkmode.js"></script>
+  <script type="text/javascript" src="contact.js"></script>
 </body>
 
 </html>

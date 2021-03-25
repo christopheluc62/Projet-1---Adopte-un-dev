@@ -1,13 +1,12 @@
-:root{
-    --color-nav: white;
-    --color-nav-border: #e8e8e8;
-  }
+:root {
+  --color-nav: white;
+  --color-nav-border: #e8e8e8;
+}
 
-.dark_mode{
-    --color-nav: black;
-    --color-nav-border: #2e2d2d;
-  }
-
+.dark_mode {
+  --color-nav: black;
+  --color-nav-border: #2e2d2d;
+}
 .nav {
   position: fixed;
   top: 0;
