@@ -15,7 +15,7 @@
   height: 80px;
   padding: 10px 40px;
   border-bottom: var(--color-nav-border);
-  background-color: var(--color-nav);
+  background-color: var(--car-bg);
   box-shadow: 0px 10px 14px -1px rgb(0 0 0 / 10%);
   z-index: 1;
   text-align: left;
