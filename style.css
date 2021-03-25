@@ -4,23 +4,15 @@
 :root {
   --white: 1px white;
   --grey: 5px grey;
-<<<<<<< HEAD
   --borderStyle: 1px solid #e8e8e8;
   --borderBottomStyle: solid 1px #d4d4d4;
-=======
-  --modalColor: white;
->>>>>>> dd8ec7ab69298dd5519c18afeaf5b15a5a964509
 }
 .dark_mode {
   --grey: 1px solid grey;
   --white: 5px solid white;
-<<<<<<< HEAD
   --borderStyle: 1px solid #e8e8e863;
   --borderBottomStyle: solid 1px #686565;
 
-=======
-  --modalColor: #212121;
->>>>>>> dd8ec7ab69298dd5519c18afeaf5b15a5a964509
 }
 * {
   margin: 0;
@@ -71,7 +63,7 @@ footer {
   background-color: var(--car-bg);
   border-top: var(--borderStyle);
   box-shadow: 0px -1px 4px -1px rgb(207 207 207);
-  margin-top: 20px;
+  /* margin-top: 20px; */
   padding-top: 15px;
 }
 
