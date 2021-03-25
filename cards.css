@@ -43,16 +43,11 @@
   box-shadow: var(--card-bshadow);
 }
 
-<<<<<<< HEAD
-.cardImg {
-  transition: 0.5s;
-=======
 .card:hover .cardTechs {
   display: none;
 }
 .card:hover .cardDescr {
   display: block;
->>>>>>> 6f1f78c59d7585efd8766d0d5949a5afd8c89d32
 }
 
 .card:hover .cardImg {
@@ -143,12 +138,3 @@
 .sendMsg img:hover {
   transform: scale(1.2);
 }
-<<<<<<< HEAD
-
-/* .infoCard {
-  position: absolute;
-  background-color: pink;
-  z-index: 9999;
-}
-=======
->>>>>>> 6f1f78c59d7585efd8766d0d5949a5afd8c89d32
