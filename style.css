@@ -61,25 +61,25 @@
 }
 
 #submitMail {
-	background-color:#a2a2a2;
-	border-radius:4px;
-	border:1px solid #949494;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Verdana;
-	font-size:18px;
-	padding:15px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
+  background-color: #a2a2a2;
+  border-radius: 4px;
+  border: 1px solid #949494;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 18px;
+  padding: 15px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
   margin-top: 30px;
 }
 #submitMail:hover {
-	background-color:#595959;
+  background-color: #595959;
 }
 #submitMail:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 #confirmMail {
@@ -94,7 +94,7 @@
   font-size: 1.1rem;
   padding: 20px;
   border: 1px #828282 solid;
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 .logoPrincipal {
