@@ -33,10 +33,17 @@
 	</label>
 </div>
   </div>
-
   <!-- Modal envoie mail -->
   <div class="modal">
-    <div class="modalContent"></div>
+    <div class="modalContent">
+      <form id="formMail">
+        <textarea id="textMail" name="textMail" placeholder="Ecrivez votre email ici.."></textarea>
+        <input id="submitMail" type="submit">
+      </form>
+      <p id="confirmMail">
+        Votre mail a été envoyé
+      </p>
+    </div>
   </div>
 
   <!-- Header  -->
@@ -53,16 +60,11 @@
     </div>
   </header>
   <main>
-    <section class="cardsGrid">
-    </section>
+    <section class="cardsGrid"></section>
   </main>
   <!-- Footer : Caroline -->
   <footer>
-
-
-    <div class="bigContainer">
-
-
+    <div class="bigContainer"></div>
       <div class="newsletter">
         <p class="titleNewsletter">Newsletter</p>
         <p class="E-mail">Recevez en avant première les dernières nouveautés & exclusivités
@@ -71,8 +73,6 @@
           <form id="contactForm"><input type="submit" class="inputEmail2" value="Valider"></form>
         </p>
       </div>
-
-
       <div class="followUs">
         <p class="titleFollowUs">Suivez-nous</p>
         <div class="logosContainer">
@@ -83,8 +83,6 @@
       </div>
 
     </div>
-
-
     <div class="copyright">
       <p>
         © Copyright Adopte un dev' Wild Code School Project
@@ -93,8 +91,6 @@
         <img src="pictures/logoWCS.png" class="logoWCS" />
       </a>
     </div>
-
-
   </footer>
   <script type="text/javascript" src="index.js"></script>
   <script type="text/javascript" src="darkmode.js"></script>

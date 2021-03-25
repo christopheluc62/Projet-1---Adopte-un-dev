@@ -6,13 +6,18 @@
   --grey: 5px grey;
   --borderStyle: 1px solid #e8e8e8;
   --borderBottomStyle: solid 1px #d4d4d4;
+  --modalColor: white;
 }
+
 .dark_mode {
   --grey: 1px solid grey;
   --white: 5px solid white;
   --borderStyle: 1px solid #e8e8e863;
   --borderBottomStyle: solid 1px #686565;
+
+  --modalColor: #212121;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +27,7 @@
 
 .modal {
   display: none;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -35,12 +41,60 @@
 }
 
 .modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 50%;
   height: 40vw;
   background-color: var(--modalColor);
   border-radius: 4px;
   box-shadow: 0px 5px 26px 0px rgb(0 0 0 / 22%),
     0px 20px 28px 0px rgb(0 0 0 / 30%);
+}
+
+.modalContent form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#submitMail {
+  background-color: #a2a2a2;
+  border-radius: 4px;
+  border: 1px solid #949494;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 18px;
+  padding: 15px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin-top: 30px;
+}
+#submitMail:hover {
+  background-color: #595959;
+}
+#submitMail:active {
+  position: relative;
+  top: 1px;
+}
+
+#confirmMail {
+  display: none;
+}
+
+#textMail {
+  width: 90%;
+  height: 300px;
+  resize: none;
+  font-weight: 100;
+  font-size: 1.1rem;
+  padding: 20px;
+  border: 1px #828282 solid;
+  border-radius: 4px;
 }
 
 .logoPrincipal {
