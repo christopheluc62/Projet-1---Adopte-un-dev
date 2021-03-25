@@ -4,7 +4,11 @@
 }
 
 .dark_mode {
+<<<<<<< HEAD
   --color-nav: #413e3e;
+=======
+  --color-nav: #212121;
+>>>>>>> dd8ec7ab69298dd5519c18afeaf5b15a5a964509
   --color-nav-border: #2e2d2d;
 }
 .nav {
