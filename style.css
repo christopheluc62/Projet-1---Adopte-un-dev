@@ -25,6 +25,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .modal {
   display: none;
   /* display: flex; */
