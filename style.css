@@ -4,10 +4,15 @@
 :root {
   --white: 1px white;
   --grey: 5px grey;
+  --borderStyle: 1px solid #e8e8e8;
+  --borderBottomStyle: solid 1px #d4d4d4;
 }
 .dark_mode {
   --grey: 1px solid grey;
   --white: 5px solid white;
+  --borderStyle: 1px solid #e8e8e863;
+  --borderBottomStyle: solid 1px #686565;
+
 }
 * {
   margin: 0;
@@ -54,9 +59,9 @@ footer {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  color: rgb(70, 70, 70);
-  /* background-color: #ecebeb; */
-  border-top: 1px solid #eaeaea;
+  color: var(--cardTechs);
+  background-color: var(--car-bg);
+  border-top: var(--borderStyle);
   box-shadow: 0px -1px 4px -1px rgb(207 207 207);
   margin-top: 20px;
   padding-top: 15px;
@@ -67,7 +72,7 @@ footer {
   justify-content: center;
   width: 50%;
   padding-bottom: 10px;
-  border-bottom: solid 1px #d4d4d4;
+  border-bottom: var(--borderBottomStyle);
 }
 
 .newsletter {
@@ -209,14 +214,3 @@ footer {
   box-shadow: 0 1px #666;
   transform: translateY(2px);
 }
-
-/* PARTIE DARKMODE */
-/* 
-.dark-mode2 {
-  background-color: black;
-  color: white;
-}
-
-.buttonDarkMode {
-  cursor: pointer;
-} */

@@ -4,7 +4,7 @@
 }
 
 .dark_mode {
-  --color-nav: black;
+  --color-nav: #413e3e;
   --color-nav-border: #2e2d2d;
 }
 .nav {
