@@ -1,6 +1,6 @@
 const modal = document.querySelector(".modal");
 const iconsMail = document.getElementsByClassName("iconSendMail");
-
+const modalContent = document.querySelector('.modalContent');
 
 const profilsList = [
     {
@@ -305,9 +305,22 @@ modal.addEventListener("click", () => {
     modal.style.display = "none";
 });
 
+modalContent.addEventListener('click', (event) => {
+    event.stopPropagation();
+});
+
 // open modal when click send mail icon
 for (let iconMail of iconsMail) {
     iconMail.addEventListener("click", () => {
         modal.style.display = "flex";
     });
 };
+
+const button = document.querySelector('#submitMail');
+const confirm = document.querySelector('#confirmMail');
+const form = document.querySelector('#formMail');
+button.addEventListener('click', (e) => {
+    e.preventDefault();
+    form.style.display = 'none';
+    confirm.style.display = 'block';
+});
