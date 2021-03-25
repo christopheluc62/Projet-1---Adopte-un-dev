@@ -5,6 +5,7 @@
   --card-bshadow: 0px 0px 0px 1px #7d98e3;
   --cardTechs: rgb(70, 70, 70);
   --cardName: black;
+  --gridBackgroundColor: white;
 }
 
 .dark_mode {
@@ -14,6 +15,7 @@
   --card-bshadow: 0px 0px 0px 1px #c2c4ca;
   --cardTechs: rgb(189, 184, 184);
   --cardName: white;
+  --gridBackgroundColor: #191919;
 }
 
 .cardsGrid {
@@ -23,6 +25,7 @@
   padding: 3rem 4rem;
   justify-content: center;
   width: 100vw;
+  background-color: var(--gridBackgroundColor);
 }
 
 .card {
