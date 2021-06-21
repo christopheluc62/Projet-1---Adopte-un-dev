@@ -1,3 +1,7 @@
+Projet de groupe n°1 (réalisé après seulement quelques semaines de formation)
+Création d'une plate-forme de recutement de développeurs web
+
+
 FONCTIONNALITES DU SITE
 
 - le logo qui reflète l'identité du site (dans le cas d'un site avec plusieurs pasges, le fait de cliquer sur le logo renvoit à la page d'accueil)
